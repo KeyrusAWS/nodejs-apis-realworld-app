@@ -15,7 +15,7 @@
 - Redis - Queue implementation over Bull and Redis as a service message bus using `@nestjs/bull`
 
 ## Application Bootstrap
-
+* Run `yarn install` to resolve node dependencies
 * Run `yarn predeploy` to build services and create docker containers
 * Run `docker-compose up` to start containers
 * Create the mongo db:
@@ -121,3 +121,12 @@ Another exaple is:
   - `feature-profile` services implements a `UserConsumer` consumer that processes messages under `userUpdated` topic on the `Users` queue and creates/updates the relevant profile in DB.
 
 See Real World App [spec here](https://github.com/gothinkster/realworld/tree/master/api).
+
+## Deploying to Amazon EC2 instance
+
+* Follow the following tutorial to install node on EC2 instance:
+https://docs.aws.amazon.com/sdk-for-javascript/v2/developer-guide/setting-up-node-on-ec2-instance.html
+
+* Recommended node version 16
+using `nvm install 16`
+
