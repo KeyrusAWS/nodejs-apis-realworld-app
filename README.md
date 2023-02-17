@@ -127,6 +127,6 @@ See Real World App [spec here](https://github.com/gothinkster/realworld/tree/mas
 * Follow the following tutorial to install node on EC2 instance:
 https://docs.aws.amazon.com/sdk-for-javascript/v2/developer-guide/setting-up-node-on-ec2-instance.html
 
-* Recommended node version 16
-using `nvm install 16`
+* Recommended node version 16:
+`nvm install 16`
 
